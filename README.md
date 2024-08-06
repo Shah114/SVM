@@ -23,3 +23,8 @@ In the simplest form, SVM is a linear classifier. Given a set of training data, 
 **Objective**: Maximize the margin between the two classes. <br/>
 <br/>
 
+**Non-Linear SVM** <br/>
+When data is not linearly separable, SVM can be extended using the kernel trick. The idea is to transform the input space into a higher-dimensional space where a linear separation is possible.
+For instance, in a 2D space, points that form a circle can be linearly separable in a 3D space after a suitable transformation. <br/>
+<br/>
+
