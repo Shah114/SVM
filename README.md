@@ -17,3 +17,9 @@ Classification
 * **Text Categorization**: SVMs classify documents into categories such as spam and non-spam emails.
 * **Handwriting Recognition**: SVMs classify handwritten characters. <br/>
 <br/>
+
+**Linear SVM** <br/>
+In the simplest form, SVM is a linear classifier. Given a set of training data, the algorithm finds a hyperplane that best separates the data into classes. <br/>
+**Objective**: Maximize the margin between the two classes. <br/>
+<br/>
+
