@@ -11,3 +11,9 @@ Classification
 * **Margin**: The distance between the hyperplane and the nearest data point from either class. <br/>
 <br/>
 
+**Applications of SVM**:
+* **Image Classification**: SVMs are used in image recognition and classification tasks.
+* **Bioinformatics**: They are used for classifying genes, proteins, and other biological data.
+* **Text Categorization**: SVMs classify documents into categories such as spam and non-spam emails.
+* **Handwriting Recognition**: SVMs classify handwritten characters. <br/>
+<br/>
