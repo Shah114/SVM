@@ -30,6 +30,7 @@ For instance, in a 2D space, points that form a circle can be linearly separable
 
 **Kernel Trick** <br/>
 The kernel trick is a fundamental concept in Support Vector Machines (SVM) that allows for efficient classification and regression in complex, non-linearly separable data spaces. It involves transforming data into a higher-dimensional space where a linear separation can be achieved, without explicitly performing the transformation. <br/>
+
 Kernels are functions that take the input data and transform it into a higher-dimensional space. This allows SVM to create non-linear boundaries. <br/>
 **Choosing the Right Kernel**:
 * **Linear Kernel**: Best used when the data is linearly separable.
