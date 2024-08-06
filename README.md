@@ -40,14 +40,14 @@ Kernels are functions that take the input data and transform it into a higher-di
 <br/>
 
 **Soft Margin and Hard Margin** <br/>
-* **Hard Margin** <br/>
+1. **Hard Margin** <br/>
 Hard Margin SVMs aim to find a hyperplane that perfectly separates the data into different classes with no misclassification. This approach assumes that the data is linearly separable, meaning that there exists a hyperplane that can divide the classes without any errors. <br/>
 
 * Objective: Maximize the margin between the classes while ensuring that all data points are correctly classified.
 * Constraints: The hard margin SVM imposes strict constraints on the data, such that no data point can fall on the wrong side of the margin.
 * Applicability: Hard margin SVMs are used when the dataset is linearly separable and there is no noise in the data. <br/>
 
-* **Soft Margin** <br/>
+2. **Soft Margin** <br/>
 Soft Margin SVMs, introduced by the C parameter, allow for some misclassification of data points to achieve a more robust model when the data is not linearly separable or contains noise. This approach is designed to handle real-world scenarios where perfect separation is not possible. <br/>
 
 * Objective: Maximize the margin between classes while allowing some data points to be within the margin or misclassified.
