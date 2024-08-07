@@ -73,7 +73,13 @@ Cross-Validation is a technique used to assess how well a model generalizes to u
 * Process:
 1. Split Data: Divide the dataset into 𝑘 folds (typically 5 or 10).
 2. Train and Validate: For each fold, train the model on 𝑘 − 1 folds and validate it on the remaining fold. This process is repeated 𝑘 times, with each fold being used as the validation set once.
-3. Evaluate Performance: Calculate performance metrics (e.g., accuracy, precision) for each fold and average the results to get a final estimate of the model’s performance.
+3. Evaluate Performance: Calculate performance metrics (e.g., accuracy, precision) for each fold and average the results to get a final estimate of the model’s performance. <br/>
+<br/>
+
+Types: <br/>
+* k-Fold Cross-Validation: The dataset is split into 𝑘 folds. Each fold is used once as a validation set while the remaining 𝑘 − 1 folds are used for training.
+* Stratified k-Fold Cross-Validation: Ensures that each fold has a representative distribution of the target classes, which is particularly useful for imbalanced datasets.
+* Leave-One-Out Cross-Validation (LOOCV): A special case of k-Fold Cross-Validation where 𝑘 is equal to the number of samples in the dataset. Each sample is used as a validation set once while the remaining samples are used for training.
 
 
  
