@@ -57,7 +57,12 @@ C, which determines the trade-off between maximizing the margin and minimizing t
 * Applicability: Soft margin SVMs are used when dealing with noisy data or when the data is not perfectly linearly separable. <br/>
 <br/>
 
-Grid Search and Cross-Validation are essential techniques in machine learning for optimizing model performance and ensuring robust evaluation. Here's a detailed overview of both:
+Grid Search and Cross-Validation are essential techniques in machine learning for optimizing model performance and ensuring robust evaluation. Here's a detailed overview of both: <br/>
+**Grid Search** <br/>
+Grid Search is a hyperparameter optimization technique used to find the best set of hyperparameters for a given machine learning model. Hyperparameters are parameters that are not learned from the training data but are set before the training process begins, such as the number of trees in a Random Forest or the regularization strength in an SVM. <br/>
+* Objective: To systematically explore a predefined set of hyperparameter values to determine the combination that yields the best model performance.
+* Process:
+
  
 
 
