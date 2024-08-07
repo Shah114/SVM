@@ -62,6 +62,11 @@ Grid Search and Cross-Validation are essential techniques in machine learning fo
 Grid Search is a hyperparameter optimization technique used to find the best set of hyperparameters for a given machine learning model. Hyperparameters are parameters that are not learned from the training data but are set before the training process begins, such as the number of trees in a Random Forest or the regularization strength in an SVM. <br/>
 * Objective: To systematically explore a predefined set of hyperparameter values to determine the combination that yields the best model performance.
 * Process:
+1. Define Parameter Grid: Create a grid of hyperparameter values to be tested. For example, if tuning an SVM, you might include various values for the regularization parameter 
+𝐶
+C and different kernel functions.
+2. Train and Evaluate: Train the model using each combination of hyperparameters and evaluate its performance using a specified metric (e.g., accuracy, F1-score).
+3. Select Best Parameters: Identify the hyperparameter combination that results in the best performance based on the evaluation metric.
 
  
 
