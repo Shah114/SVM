@@ -61,10 +61,20 @@ Grid Search and Cross-Validation are essential techniques in machine learning fo
 Grid Search is a hyperparameter optimization technique used to find the best set of hyperparameters for a given machine learning model. Hyperparameters are parameters that are not learned from the training data but are set before the training process begins, such as the number of trees in a Random Forest or the regularization strength in an SVM. <br/>
 * Objective: To systematically explore a predefined set of hyperparameter values to determine the combination that yields the best model performance.
 * Process:
-   1. Define Parameter Grid: Create a grid of hyperparameter values to be tested. For example, if tuning an SVM, you might include various values for the regularization parameter 
+1. Define Parameter Grid: Create a grid of hyperparameter values to be tested. For example, if tuning an SVM, you might include various values for the regularization parameter 
 𝐶 and different kernel functions.
-   2. Train and Evaluate: Train the model using each combination of hyperparameters and evaluate its performance using a specified metric (e.g., accuracy, F1-score).
-   3. Select Best Parameters: Identify the hyperparameter combination that results in the best performance based on the evaluation metric.
+2. Train and Evaluate: Train the model using each combination of hyperparameters and evaluate its performance using a specified metric (e.g., accuracy, F1-score).
+3. Select Best Parameters: Identify the hyperparameter combination that results in the best performance based on the evaluation metric. <br/>
+<br/>
+
+**Cross-Validation** <br/>
+Cross-Validation is a technique used to assess how well a model generalizes to unseen data. It involves partitioning the dataset into multiple subsets or "folds" and using different combinations of these folds for training and validation. <br/>
+* Objective: To estimate the model’s performance and ensure that it generalizes well to new, unseen data by using different subsets of the dataset for training and testing.
+* Process:
+1. Split Data: Divide the dataset into 𝑘 folds (typically 5 or 10).
+2. Train and Validate: For each fold, train the model on 𝑘 − 1 folds and validate it on the remaining fold. This process is repeated 𝑘 times, with each fold being used as the validation set once.
+3. Evaluate Performance: Calculate performance metrics (e.g., accuracy, precision) for each fold and average the results to get a final estimate of the model’s performance.
+
 
  
 
