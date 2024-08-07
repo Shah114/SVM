@@ -55,6 +55,9 @@ Soft Margin SVMs, introduced by the C parameter, allow for some misclassificatio
 𝐶
 C, which determines the trade-off between maximizing the margin and minimizing the classification error.
 * Applicability: Soft margin SVMs are used when dealing with noisy data or when the data is not perfectly linearly separable. <br/>
+<br/>
+
+Grid Search and Cross-Validation are essential techniques in machine learning for optimizing model performance and ensuring robust evaluation. Here's a detailed overview of both:
  
 
 
